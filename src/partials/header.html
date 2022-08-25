@@ -1,18 +1,53 @@
 <div class="container" name="header">
-  <a href="./index.html" class="site-logo">
-    <svg class="logo-svg" width="71" height="52">
-      <use href="./index.html"></use>
-    </svg>
-    <span class="logo-text">FoodSta</span>
-  </a>
-  <nav class="header-navigation">
-    <ul class="menu">
-      <li class="menu__item"><a href="./index.html">Home</a></li>
-      <li class="menu__item"><a href="./index.html">About</a></li>
-      <li class="menu__item"><a href="./index.html">Service</a></li>
-      <li class="menu__item"><a href="./index.html">Menu</a></li>
-      <li class="menu__item"><a href="./index.html">Contact</a></li>
-    </ul>
-  </nav>
-  <button type="button">Order now</button>
+  <div class="header-container">
+    <a href="./index.html" class="site-logo">
+      <!-- <svg class="logo-svg" width="71" height="52">
+        <use href="./images/SVG/IconLogo.svg"></use>
+      </svg> -->
+      <img src="./images/SVG/IconLogo.svg" alt="" width="71" height="52" />
+    </a>
+
+    <div class="menu-container" id="menu-container" data-menu>
+      <nav class="header-navigation">
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Home</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">About</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Service</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Menu</a>
+          </li>
+          <li class="menu__item">
+            <a href="./index.html" class="menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="header-order-button">Order Now</button>
+    </div>
+
+    <button
+      class="menu-button"
+      type="button"
+      aria-expanded="false"
+      aria-controls="menu-container"
+      data-menu-button
+    >
+      <!-- <svg width="28" height="28" aria-label="Переключатель мобильного меню">
+        <use class="icon-close" href="./images/svg/sprite.svg#icon-close"></use>
+        <use class="icon-menu" href="./images/svg/sprite.svg#icon-menu"></use>
+      </svg> -->
+      <img
+        src="./images/SVG/Menu.svg"
+        alt=""
+        width="28"
+        height="28"
+        aria-label="Переключатель мобильного меню"
+      />
+    </button>
+  </div>
 </div>
