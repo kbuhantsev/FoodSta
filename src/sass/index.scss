@@ -1,0 +1,22 @@
+@import './common/common';
+
+@import "./utils/variables";
+@import "./utils/breakpoints";
+
+@import "./utils/mixines";
+@import "./utils/placeholders";
+
+@import "./base/base";
+@import "./base/reset";
+
+@import "./common/swiper";
+@import "./common/modal-window";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/offerings";
+@import "./layout/favorites";
+@import "./layout/customers";
+@import "./layout/subscribe";
+@import "./layout/footer";
+@import "./layout/order-form";

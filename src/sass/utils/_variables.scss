@@ -1,14 +1,23 @@
-/* Fonts */
-$main-font-family: 'Roboto', sans-serif;
+/* fonts */
+$main-font: 'Roboto', sans-serif;
 
-/* Colors */
-$snow-white-color: #fff;
-$light-green-color: #bbf330;
-$dark-green-color: #7eb101;
-$white-color: #fefefe;
-$yellow-color: #ffe550;
-$black-color: #2c2c2c;
-$red-color: #ff705d;
+/*colors*/
+$green: #bbf330;
+$dark-green: #7eb101;
+$button-hover-green: #b5ff00;
+$yellow: #ffe550;
+$black: #2c2c2c;
+$white: #fefefe;
+$red: #FF705D;
 
-/* Time functions */
-$main-time-func: cubic-bezier(0.4, 0, 0.2, 1);
+/* others */
+$shadowfruit-bagcol: radial-gradient(50% 50% at 50% 50%,
+                #2f583f 0%,
+                rgba(105, 105, 105, 0) 100%);
+
+$indent: 30px;
+$items: 3;
+
+// animations
+$anim-fast: 300ms ease-in-out;
+$anim-slow: 600ms ease-out;
